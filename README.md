@@ -2,7 +2,7 @@
 
 youtube-dl - faça o download de vídeos do youtube.com ou de outras plataformas de vídeo
 
-- [INSTALAÇÃO](#installation)
+- [INSTALAÇÃO](#instalação)
 - [DESCRIÇÃO](#description)
 - [OPÇÕES](#options)
 - [CONFIGURAÇÃO](#configuration)
@@ -22,28 +22,28 @@ Para instalá-lo imediatamente para todos os usuários do UNIX (Linux, macOS, et
     sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
     sudo chmod a+rx /usr/local/bin/youtube-dl
 
-If you do not have curl, you can alternatively use a recent wget:
+Se você não tiver o curl, você pode alternativamente usar um wget recente:
 
     sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
     sudo chmod a+rx /usr/local/bin/youtube-dl
 
-Windows users can [download an .exe file](https://yt-dl.org/latest/youtube-dl.exe) and place it in any location on their [PATH](https://en.wikipedia.org/wiki/PATH_%28variable%29) except for `%SYSTEMROOT%\System32` (e.g. **do not** put in `C:\Windows\System32`).
+Usuários do Windows podem [baixar um arquivo .exe](https://yt-dl.org/latest/youtube-dl.exe) e colocá-lo em qualquer local em seu [PATH](https://en.wikipedia.org/wiki/PATH_%28variable%29) exceto por `%SYSTEMROOT%\System32` (por exemplo. **não** coloque em `C:\Windows\System32`).
 
-You can also use pip:
+Você também pode usar pip:
 
     sudo -H pip install --upgrade youtube-dl
     
-This command will update youtube-dl if you have already installed it. See the [pypi page](https://pypi.python.org/pypi/youtube_dl) for more information.
+Este comando atualizará o youtube-dl se você já o instalou. Veja a [página pypi](https://pypi.python.org/pypi/youtube_dl) para maiores informações.
 
-macOS users can install youtube-dl with [Homebrew](https://brew.sh/):
+usuários do macOS podem instalar o youtube-dl com [Homebrew](https://brew.sh/):
 
     brew install youtube-dl
 
-Or with [MacPorts](https://www.macports.org/):
+Ou com [MacPorts](https://www.macports.org/):
 
     sudo port install youtube-dl
 
-Alternatively, refer to the [developer instructions](#developer-instructions) for how to check out and work with the git repository. For further options, including PGP signatures, see the [youtube-dl Download Page](https://rg3.github.io/youtube-dl/download.html).
+Como alternativa, consulte as [instruções do desenvolvedor](#developer-instructions) for how to check out and work with the git repository. For further options, including PGP signatures, see the [youtube-dl Download Page](https://rg3.github.io/youtube-dl/download.html).
 
 # DESCRIPTION
 **youtube-dl** is a command-line program to download videos from YouTube.com and a few more sites. It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS. It is released to the public domain, which means you can modify it, redistribute it or use it however you like.
